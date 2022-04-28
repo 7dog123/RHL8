@@ -1,5 +1,4 @@
 FROM redhat/ubi8:latest
 
-RUN ls /usr && \
-    ls /usr/local
+RUN ls /usr/bin
 
