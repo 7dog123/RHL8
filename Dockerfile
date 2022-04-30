@@ -1,4 +1,4 @@
-FROM redhat/ubi8:latest
+FROM ubuntu:12.04.5
 
-RUN ls /usr/bin
+RUN cat /etc/apt/sources.list
 
